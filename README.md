@@ -1,2 +1,3 @@
 # hackerankJavaProblem
-###Hackerank Java Problems Solution. 
+</br>
+<h3>Hackerank Java Problems Solution.</h3> 
