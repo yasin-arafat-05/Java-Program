@@ -1,3 +1,3 @@
 # Java
 </br>
-<h3>All My Java Problems Solutions avaiable here.</h3> 
+<h3>All My Java Problems Solution avaiable here.</h3> 
