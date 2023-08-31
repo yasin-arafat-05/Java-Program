@@ -1,3 +1,3 @@
-# hackerankJavaProblem
+# Java
 </br>
-<h3>Hackerank Java Problems Solution.</h3> 
+<h3>All My Java Problems Solutions avaiable here.</h3> 
