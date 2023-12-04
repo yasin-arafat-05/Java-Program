@@ -19,7 +19,6 @@ package JavaConditional;
  *
  * @author yasin
  */
-
 public class prbONE {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -32,5 +31,6 @@ public class prbONE {
         }else{
             System.out.println("Zero");
         }    
+        
     }
 }
