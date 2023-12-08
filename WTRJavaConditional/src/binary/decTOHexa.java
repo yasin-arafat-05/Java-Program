@@ -9,20 +9,18 @@ package binary;
  * @author yasin
  */
 import java.util.Scanner;
-public class decToHexa {
+public class decTOHexa {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a decimal number : ");
-        int n = sc.nextInt();
-        sc.close();
+        long dec = sc.nextInt();
         
-        char []hex = {'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
-        
-        String ans = "";
-        while(n!=0){
-            ans = hex[n%16]+ans;
-            n/=16;
+        long result = 0; long i=1;
+        while(dec!=0){
+            long digit = dec%8;
+            dec /=8;
+            result = result + (digit*i);
+            i *=10;
         }
-        System.out.println(ans);
+        System.out.println("Result: "+result);
     }
 }

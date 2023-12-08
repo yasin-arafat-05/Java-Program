@@ -9,15 +9,8 @@ package binary;
  */
 import java.util.Scanner;
 public class binaryAddition {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
-        String []s = str.split(" ");
-        StringBuilder result = new StringBuilder();
-       for(String temp : s){
-           char firstChar = Character.toUpperCase(temp.charAt(0));
-           result.append(firstChar).append(temp.substring(1)).append(" ");
-       }
-        System.out.println(result);
+    public static void main(String[] args){
+        System.out.println("Enter first binary number: ");
+        
     }
 }
