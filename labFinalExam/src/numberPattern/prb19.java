@@ -10,19 +10,19 @@ import java.util.Scanner;
  *
  * @author yasin
  */
-public class prb09 {
-    public static void main(String[] args) {
-        System.out.println("Enter the value of n: ");
+public class prb19 {
+     public static void main(String[] args) {
+        System.out.println("Enter the vaule of n: ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        
         for(int i=0;i<n;i++){
-            int k = 1;
+            int num = i+1;
             for(int j=0;j<=i;j++){
-                System.out.print(k);
-                k = (k==1)?0:1;
+                System.out.print(num+" ");
+                num +=n-j-1;
             }
             System.out.println("");
         }
+       
     }
 }

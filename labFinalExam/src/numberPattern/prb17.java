@@ -10,37 +10,34 @@ import java.util.Scanner;
  *
  * @author yasin
  */
-public class prb10 {
-    public static void main(String[] args) {
-        System.out.println("Enter the value of n: ");
+public class prb17 {
+     public static void main(String[] args) {
+        System.out.println("Enter the vaule of n: ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        //----- 1st Part ---------
-        for(int i=0;i<n;i++){
-            int space=i;
+        //----1st part-------
+        for(int i =0;i<n;i++){
+            int space = i;
             while(space-->0){
                 System.out.print(" ");
             }
-            int num=n-i;
-            int prntNum = i+1;
-            while(num-->0){
-                System.out.print(prntNum+" ");
-                prntNum++;
+            int k = i+1;
+            for(int j=0;j<(n-i);j++){
+                System.out.print(k);
+                k++;
             }
             System.out.println("");
         }
-        
-        //----------- 2nd part ---------
-        for(int i=n-2;i>=0;i--){
-            int space=i;
+        //----2nd part-------
+        for(int i =n-2;i>=0;i--){
+            int space = i;
             while(space-->0){
                 System.out.print(" ");
             }
-            int num=n-i;
-            int prntNum = i+1;
-            while(num-->0){
-                System.out.print(prntNum+" ");
-                prntNum++;
+            int k = i+1;
+            for(int j=0;j<(n-i);j++){
+                System.out.print(k);
+                k++;
             }
             System.out.println("");
         }
